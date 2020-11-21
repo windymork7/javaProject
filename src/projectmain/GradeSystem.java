@@ -1,19 +1,11 @@
 package projectmain;
 
 import grade.GradeProcess;
-import student.Student;
 
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Scanner;
 
 public class GradeSystem {
 
-    public List list;
-
-    public GradeSystem() {
-        list = new ArrayList<Student>();
-    }
 
     public static void main(String[] args) {
 
@@ -33,19 +25,24 @@ public class GradeSystem {
 
             choice = scanner.nextInt();
 
-            switch (choice){
-                case 1: gradeProcess.insert();
+            switch (choice) {
+                case 1:
+                    gradeProcess.insert();
                     break;
-                case 2: gradeProcess.update();
+                case 2:
+                    gradeProcess.update();
                     break;
-                case 3: gradeProcess.delete();
+                case 3:
+                    gradeProcess.delete();
                     break;
-                case 4: gradeProcess.show();
+                case 4:
+                    gradeProcess.show();
                     break;
-                case 0: choice = gradeProcess.exit();
+                case 0:
+                    choice = gradeProcess.exit();
                     break;
             }
-        } while (choice!=-1);
+        } while (choice != -1);
 
 
     }
