@@ -45,6 +45,7 @@ public class GradeSystem {
         } while (choice != -1);
 
         System.out.println("show me the money");
+        System.out.println("ㅊㅋㅊㅋㅊㅋ");
     }
 }
 
