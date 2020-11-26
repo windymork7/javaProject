@@ -44,7 +44,7 @@ public class GradeSystem {
             }
         } while (choice != -1);
 
-
+        System.out.println("실험중입니다.");
     }
 
 }
