@@ -43,7 +43,8 @@ public class GradeSystem {
                     break;
             }
         } while (choice != -1);
-    }
 
+        System.out.println("show me the money");
+    }
 }
 
